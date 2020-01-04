@@ -1,4 +1,4 @@
-// Cowtools RSS - Copyright Conor O'Neill 2020, conor@conoroneill.com
+// South China RSS - Copyright Conor O'Neill 2020, conor@conoroneill.com
 // LICENSE Apache-2.0
 // Invoke like https://url.of.serverless.function/dev/rss
 
