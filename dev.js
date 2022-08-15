@@ -22,7 +22,7 @@
   request(URL, function (error, response, html) {
     if (!error && response.statusCode == 200) {
       var $ = cheerio.load(html);
-      $(".article-lv3__header").each(function () {
+      $(".article__title").each(function () {
         var link = "https://www.scmp.com" + $(this).find("a").attr("href");
         console.log(link);
         var title = $(this).text() || "No title";
