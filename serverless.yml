@@ -7,6 +7,7 @@ provider:
 functions:
   check:
     handler: index.check
+    description: generate RSS feed from the SCMP trail running news page
     events:
       - http:
           path: rss
